@@ -12,6 +12,7 @@
 1. merge 후 git graph로 확인
 
 ## github와 연결
+> 토큰생성: 깃허브 → 우측상단 내 아이콘 클릭 → settings → 좌측 하단 developer settings → personal access tokens → tokens(classic) → generate token(classic) → repo 체크 후 생성 
 * `git config --global user.name "이름"`
 * `git config --global user.email "이메일"`
 * `git config --list`
@@ -27,3 +28,10 @@
 print("hello python world")
 ```
 2. add->commit->push
+
+## 협업을 위한 방법
+> clone은 단순 구경용임!
+1. 다른 사람 프로젝트에 기여할 때
+  * 레파지토리 fork -> clone -> branch 생성후 개발 -> push -> PR
+2. 같은 팀원 프로젝트에 기여할 때
+  * 팀장이 팀원들에게 collaborator 권한 부여 -> (팀원) clone -> branch 생성후 개발 -> push -> PR 
